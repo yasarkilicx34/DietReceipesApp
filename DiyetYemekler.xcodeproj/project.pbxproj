@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4792801F2AA618BF00E26C01 /* DiyetYemeklerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792801E2AA618BF00E26C01 /* DiyetYemeklerApp.swift */; };
+		479280212AA618BF00E26C01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479280202AA618BF00E26C01 /* ContentView.swift */; };
+		479280232AA618BF00E26C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479280222AA618BF00E26C01 /* Assets.xcassets */; };
+		479280262AA618BF00E26C01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479280252AA618BF00E26C01 /* Preview Assets.xcassets */; };
+		479280302AA618C000E26C01 /* DiyetYemeklerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792802F2AA618C000E26C01 /* DiyetYemeklerTests.swift */; };
+		4792803A2AA618C000E26C01 /* DiyetYemeklerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479280392AA618C000E26C01 /* DiyetYemeklerUITests.swift */; };
+		4792803C2AA618C000E26C01 /* DiyetYemeklerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792803B2AA618C000E26C01 /* DiyetYemeklerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4792802C2AA618C000E26C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479280132AA618BE00E26C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4792801A2AA618BF00E26C01;
+			remoteInfo = DiyetYemekler;
+		};
+		479280362AA618C000E26C01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 479280132AA618BE00E26C01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4792801A2AA618BF00E26C01;
+			remoteInfo = DiyetYemekler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4792801B2AA618BF00E26C01 /* DiyetYemekler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiyetYemekler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4792801E2AA618BF00E26C01 /* DiyetYemeklerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyetYemeklerApp.swift; sourceTree = "<group>"; };
+		479280202AA618BF00E26C01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		479280222AA618BF00E26C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		479280252AA618BF00E26C01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4792802B2AA618C000E26C01 /* DiyetYemeklerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiyetYemeklerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4792802F2AA618C000E26C01 /* DiyetYemeklerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyetYemeklerTests.swift; sourceTree = "<group>"; };
+		479280352AA618C000E26C01 /* DiyetYemeklerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiyetYemeklerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		479280392AA618C000E26C01 /* DiyetYemeklerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyetYemeklerUITests.swift; sourceTree = "<group>"; };
+		4792803B2AA618C000E26C01 /* DiyetYemeklerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyetYemeklerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		479280182AA618BF00E26C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479280282AA618C000E26C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479280322AA618C000E26C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		479280122AA618BE00E26C01 = {
+			isa = PBXGroup;
+			children = (
+				4792801D2AA618BF00E26C01 /* DiyetYemekler */,
+				4792802E2AA618C000E26C01 /* DiyetYemeklerTests */,
+				479280382AA618C000E26C01 /* DiyetYemeklerUITests */,
+				4792801C2AA618BF00E26C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4792801C2AA618BF00E26C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4792801B2AA618BF00E26C01 /* DiyetYemekler.app */,
+				4792802B2AA618C000E26C01 /* DiyetYemeklerTests.xctest */,
+				479280352AA618C000E26C01 /* DiyetYemeklerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4792801D2AA618BF00E26C01 /* DiyetYemekler */ = {
+			isa = PBXGroup;
+			children = (
+				4792801E2AA618BF00E26C01 /* DiyetYemeklerApp.swift */,
+				479280202AA618BF00E26C01 /* ContentView.swift */,
+				479280222AA618BF00E26C01 /* Assets.xcassets */,
+				479280242AA618BF00E26C01 /* Preview Content */,
+			);
+			path = DiyetYemekler;
+			sourceTree = "<group>";
+		};
+		479280242AA618BF00E26C01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				479280252AA618BF00E26C01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4792802E2AA618C000E26C01 /* DiyetYemeklerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4792802F2AA618C000E26C01 /* DiyetYemeklerTests.swift */,
+			);
+			path = DiyetYemeklerTests;
+			sourceTree = "<group>";
+		};
+		479280382AA618C000E26C01 /* DiyetYemeklerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				479280392AA618C000E26C01 /* DiyetYemeklerUITests.swift */,
+				4792803B2AA618C000E26C01 /* DiyetYemeklerUITestsLaunchTests.swift */,
+			);
+			path = DiyetYemeklerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4792801A2AA618BF00E26C01 /* DiyetYemekler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4792803F2AA618C000E26C01 /* Build configuration list for PBXNativeTarget "DiyetYemekler" */;
+			buildPhases = (
+				479280172AA618BF00E26C01 /* Sources */,
+				479280182AA618BF00E26C01 /* Frameworks */,
+				479280192AA618BF00E26C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiyetYemekler;
+			productName = DiyetYemekler;
+			productReference = 4792801B2AA618BF00E26C01 /* DiyetYemekler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4792802A2AA618C000E26C01 /* DiyetYemeklerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479280422AA618C000E26C01 /* Build configuration list for PBXNativeTarget "DiyetYemeklerTests" */;
+			buildPhases = (
+				479280272AA618C000E26C01 /* Sources */,
+				479280282AA618C000E26C01 /* Frameworks */,
+				479280292AA618C000E26C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4792802D2AA618C000E26C01 /* PBXTargetDependency */,
+			);
+			name = DiyetYemeklerTests;
+			productName = DiyetYemeklerTests;
+			productReference = 4792802B2AA618C000E26C01 /* DiyetYemeklerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		479280342AA618C000E26C01 /* DiyetYemeklerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 479280452AA618C000E26C01 /* Build configuration list for PBXNativeTarget "DiyetYemeklerUITests" */;
+			buildPhases = (
+				479280312AA618C000E26C01 /* Sources */,
+				479280322AA618C000E26C01 /* Frameworks */,
+				479280332AA618C000E26C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				479280372AA618C000E26C01 /* PBXTargetDependency */,
+			);
+			name = DiyetYemeklerUITests;
+			productName = DiyetYemeklerUITests;
+			productReference = 479280352AA618C000E26C01 /* DiyetYemeklerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		479280132AA618BE00E26C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4792801A2AA618BF00E26C01 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4792802A2AA618C000E26C01 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4792801A2AA618BF00E26C01;
+					};
+					479280342AA618C000E26C01 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4792801A2AA618BF00E26C01;
+					};
+				};
+			};
+			buildConfigurationList = 479280162AA618BE00E26C01 /* Build configuration list for PBXProject "DiyetYemekler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 479280122AA618BE00E26C01;
+			productRefGroup = 4792801C2AA618BF00E26C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4792801A2AA618BF00E26C01 /* DiyetYemekler */,
+				4792802A2AA618C000E26C01 /* DiyetYemeklerTests */,
+				479280342AA618C000E26C01 /* DiyetYemeklerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		479280192AA618BF00E26C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479280262AA618BF00E26C01 /* Preview Assets.xcassets in Resources */,
+				479280232AA618BF00E26C01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479280292AA618C000E26C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479280332AA618C000E26C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479280172AA618BF00E26C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479280212AA618BF00E26C01 /* ContentView.swift in Sources */,
+				4792801F2AA618BF00E26C01 /* DiyetYemeklerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479280272AA618C000E26C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479280302AA618C000E26C01 /* DiyetYemeklerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		479280312AA618C000E26C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4792803C2AA618C000E26C01 /* DiyetYemeklerUITestsLaunchTests.swift in Sources */,
+				4792803A2AA618C000E26C01 /* DiyetYemeklerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4792802D2AA618C000E26C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4792801A2AA618BF00E26C01 /* DiyetYemekler */;
+			targetProxy = 4792802C2AA618C000E26C01 /* PBXContainerItemProxy */;
+		};
+		479280372AA618C000E26C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4792801A2AA618BF00E26C01 /* DiyetYemekler */;
+			targetProxy = 479280362AA618C000E26C01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4792803D2AA618C000E26C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4792803E2AA618C000E26C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		479280402AA618C000E26C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiyetYemekler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasar.DiyetYemekler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		479280412AA618C000E26C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiyetYemekler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasar.DiyetYemekler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		479280432AA618C000E26C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasar.DiyetYemeklerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiyetYemekler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiyetYemekler";
+			};
+			name = Debug;
+		};
+		479280442AA618C000E26C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasar.DiyetYemeklerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiyetYemekler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiyetYemekler";
+			};
+			name = Release;
+		};
+		479280462AA618C000E26C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasar.DiyetYemeklerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiyetYemekler;
+			};
+			name = Debug;
+		};
+		479280472AA618C000E26C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yasar.DiyetYemeklerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiyetYemekler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		479280162AA618BE00E26C01 /* Build configuration list for PBXProject "DiyetYemekler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4792803D2AA618C000E26C01 /* Debug */,
+				4792803E2AA618C000E26C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4792803F2AA618C000E26C01 /* Build configuration list for PBXNativeTarget "DiyetYemekler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479280402AA618C000E26C01 /* Debug */,
+				479280412AA618C000E26C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479280422AA618C000E26C01 /* Build configuration list for PBXNativeTarget "DiyetYemeklerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479280432AA618C000E26C01 /* Debug */,
+				479280442AA618C000E26C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		479280452AA618C000E26C01 /* Build configuration list for PBXNativeTarget "DiyetYemeklerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479280462AA618C000E26C01 /* Debug */,
+				479280472AA618C000E26C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 479280132AA618BE00E26C01 /* Project object */;
+}
