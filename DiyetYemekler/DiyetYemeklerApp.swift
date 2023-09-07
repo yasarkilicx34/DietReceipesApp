@@ -44,7 +44,7 @@ struct SplashScreenView: View {
     var body: some View {
         VStack {
             VStack {
-                Image("SplashScreen") // Resim dosyasının adı doğru olmalı
+                Image("SplashScreen") 
                     .resizable()
                     .frame(height: 480)
             }
@@ -58,7 +58,7 @@ struct SplashScreenView: View {
             }
         }
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {  // Süreyi 10.0 saniye olarak da belirleyebilirsiniz.
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {  
                 self.isActive = true
             }
         }
