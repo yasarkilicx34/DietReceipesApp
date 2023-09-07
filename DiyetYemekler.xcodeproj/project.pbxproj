@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473EE5632AA8EA7400428A4F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 473EE5622AA8EA7400428A4F /* GoogleService-Info.plist */; };
+		478E2A022AA76D60009850EF /* MainCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E2A012AA76D60009850EF /* MainCourseView.swift */; };
+		478E2A042AA76D8A009850EF /* SnackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E2A032AA76D8A009850EF /* SnackView.swift */; };
+		478E2A062AA76D98009850EF /* DessertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E2A052AA76D98009850EF /* DessertView.swift */; };
+		478E2A082AA76DA3009850EF /* BreakfastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E2A072AA76DA3009850EF /* BreakfastView.swift */; };
+		478E2A0E2AA89F71009850EF /* BucketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E2A0D2AA89F71009850EF /* BucketViewModel.swift */; };
+		478E2A102AA8B851009850EF /* ReceipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E2A0F2AA8B851009850EF /* ReceipeDetailView.swift */; };
+		478E2A132AA8BBC2009850EF /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E2A122AA8BBC2009850EF /* FavoriteViewModel.swift */; };
 		4792801F2AA618BF00E26C01 /* DiyetYemeklerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792801E2AA618BF00E26C01 /* DiyetYemeklerApp.swift */; };
 		479280212AA618BF00E26C01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479280202AA618BF00E26C01 /* ContentView.swift */; };
 		479280232AA618BF00E26C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479280222AA618BF00E26C01 /* Assets.xcassets */; };
@@ -14,6 +22,10 @@
 		479280302AA618C000E26C01 /* DiyetYemeklerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792802F2AA618C000E26C01 /* DiyetYemeklerTests.swift */; };
 		4792803A2AA618C000E26C01 /* DiyetYemeklerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479280392AA618C000E26C01 /* DiyetYemeklerUITests.swift */; };
 		4792803C2AA618C000E26C01 /* DiyetYemeklerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792803B2AA618C000E26C01 /* DiyetYemeklerUITestsLaunchTests.swift */; };
+		479280492AA618ED00E26C01 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479280482AA618ED00E26C01 /* HomeView.swift */; };
+		4792804B2AA6190800E26C01 /* BucketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792804A2AA6190800E26C01 /* BucketView.swift */; };
+		4792804D2AA6191B00E26C01 /* FavoriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792804C2AA6191B00E26C01 /* FavoriView.swift */; };
+		4792804F2AA6192A00E26C01 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4792804E2AA6192A00E26C01 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		473EE5622AA8EA7400428A4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		478E2A012AA76D60009850EF /* MainCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCourseView.swift; sourceTree = "<group>"; };
+		478E2A032AA76D8A009850EF /* SnackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackView.swift; sourceTree = "<group>"; };
+		478E2A052AA76D98009850EF /* DessertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertView.swift; sourceTree = "<group>"; };
+		478E2A072AA76DA3009850EF /* BreakfastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastView.swift; sourceTree = "<group>"; };
+		478E2A0D2AA89F71009850EF /* BucketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketViewModel.swift; sourceTree = "<group>"; };
+		478E2A0F2AA8B851009850EF /* ReceipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeDetailView.swift; sourceTree = "<group>"; };
+		478E2A122AA8BBC2009850EF /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		4792801B2AA618BF00E26C01 /* DiyetYemekler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiyetYemekler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4792801E2AA618BF00E26C01 /* DiyetYemeklerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyetYemeklerApp.swift; sourceTree = "<group>"; };
 		479280202AA618BF00E26C01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +64,10 @@
 		479280352AA618C000E26C01 /* DiyetYemeklerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiyetYemeklerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		479280392AA618C000E26C01 /* DiyetYemeklerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyetYemeklerUITests.swift; sourceTree = "<group>"; };
 		4792803B2AA618C000E26C01 /* DiyetYemeklerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiyetYemeklerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		479280482AA618ED00E26C01 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4792804A2AA6190800E26C01 /* BucketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketView.swift; sourceTree = "<group>"; };
+		4792804C2AA6191B00E26C01 /* FavoriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriView.swift; sourceTree = "<group>"; };
+		4792804E2AA6192A00E26C01 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		478E2A002AA76D26009850EF /* CCategories */ = {
+			isa = PBXGroup;
+			children = (
+				478E2A012AA76D60009850EF /* MainCourseView.swift */,
+				478E2A032AA76D8A009850EF /* SnackView.swift */,
+				478E2A052AA76D98009850EF /* DessertView.swift */,
+				478E2A072AA76DA3009850EF /* BreakfastView.swift */,
+			);
+			path = CCategories;
+			sourceTree = "<group>";
+		};
+		478E2A112AA8BB96009850EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				478E2A0D2AA89F71009850EF /* BucketViewModel.swift */,
+				478E2A122AA8BBC2009850EF /* FavoriteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		479280122AA618BE00E26C01 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +138,17 @@
 		4792801D2AA618BF00E26C01 /* DiyetYemekler */ = {
 			isa = PBXGroup;
 			children = (
+				478E2A112AA8BB96009850EF /* ViewModel */,
+				478E2A002AA76D26009850EF /* CCategories */,
 				4792801E2AA618BF00E26C01 /* DiyetYemeklerApp.swift */,
 				479280202AA618BF00E26C01 /* ContentView.swift */,
+				478E2A0F2AA8B851009850EF /* ReceipeDetailView.swift */,
+				4792804A2AA6190800E26C01 /* BucketView.swift */,
+				4792804C2AA6191B00E26C01 /* FavoriView.swift */,
+				4792804E2AA6192A00E26C01 /* SettingsView.swift */,
+				479280482AA618ED00E26C01 /* HomeView.swift */,
 				479280222AA618BF00E26C01 /* Assets.xcassets */,
+				473EE5622AA8EA7400428A4F /* GoogleService-Info.plist */,
 				479280242AA618BF00E26C01 /* Preview Content */,
 			);
 			path = DiyetYemekler;
@@ -143,6 +195,8 @@
 			dependencies = (
 			);
 			name = DiyetYemekler;
+			packageProductDependencies = (
+			);
 			productName = DiyetYemekler;
 			productReference = 4792801B2AA618BF00E26C01 /* DiyetYemekler.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +269,8 @@
 				Base,
 			);
 			mainGroup = 479280122AA618BE00E26C01;
+			packageReferences = (
+			);
 			productRefGroup = 4792801C2AA618BF00E26C01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +289,7 @@
 			files = (
 				479280262AA618BF00E26C01 /* Preview Assets.xcassets in Resources */,
 				479280232AA618BF00E26C01 /* Assets.xcassets in Resources */,
+				473EE5632AA8EA7400428A4F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +314,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4792804B2AA6190800E26C01 /* BucketView.swift in Sources */,
+				479280492AA618ED00E26C01 /* HomeView.swift in Sources */,
 				479280212AA618BF00E26C01 /* ContentView.swift in Sources */,
+				4792804F2AA6192A00E26C01 /* SettingsView.swift in Sources */,
+				4792804D2AA6191B00E26C01 /* FavoriView.swift in Sources */,
+				478E2A042AA76D8A009850EF /* SnackView.swift in Sources */,
+				478E2A082AA76DA3009850EF /* BreakfastView.swift in Sources */,
+				478E2A022AA76D60009850EF /* MainCourseView.swift in Sources */,
+				478E2A0E2AA89F71009850EF /* BucketViewModel.swift in Sources */,
+				478E2A102AA8B851009850EF /* ReceipeDetailView.swift in Sources */,
 				4792801F2AA618BF00E26C01 /* DiyetYemeklerApp.swift in Sources */,
+				478E2A062AA76D98009850EF /* DessertView.swift in Sources */,
+				478E2A132AA8BBC2009850EF /* FavoriteViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,35 +7,38 @@
 
 import SwiftUI
 import Combine
-import Foundation
-
-
-
-struct BucketItem: Identifiable {
-    var id = UUID()
-    var name: String
-    var isToggled: Bool
-}
 
 class BucketViewModel: ObservableObject {
-    @Published var bucket: [BucketItem] = []
-    
+    @Published var bucket: [BucketItem] = [] {
+        didSet {
+            if let encoded = try? JSONEncoder().encode(bucket) {
+                UserDefaults.standard.set(encoded, forKey: "BucketItems")
+            }
+        }
+    }
+
+    init() {
+        if let data = UserDefaults.standard.data(forKey: "BucketItems"),
+           let decoded = try? JSONDecoder().decode([BucketItem].self, from: data) {
+            self.bucket = decoded
+        } else {
+            self.bucket = []
+        }
+    }
+
     func addItem(_ item: String) {
         bucket.append(BucketItem(name: item, isToggled: false))
     }
-    
+
     func removeItem(_ item: String) {
         bucket.removeAll { $0.name == item }
     }
-    
+
     func containsItem(_ item: String) -> Bool {
         return bucket.contains { $0.name == item }
     }
     
-    func toggleItem(_ item: String) {
-        if let index = bucket.firstIndex(where: { $0.name == item }) {
-            bucket[index].isToggled.toggle()
-        }
-    }
 }
+
+
 
