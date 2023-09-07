@@ -140,7 +140,7 @@ struct DessertView: View {
 
 struct DessertView_Previews: PreviewProvider {
     static var previews: some View {
-        DessertView(searchText: .constant("")) // Test için boş bir binding değeri kullanıyoruz
+        DessertView(searchText: .constant("")) 
             .environmentObject(BucketViewModel())
     }
 }
