@@ -135,10 +135,10 @@ struct SnackView: View {
 }
 
 struct SnackView_Previews: PreviewProvider {
-    @State static var searchText = "" // <-- Ekledik
+    @State static var searchText = "" 
     
     static var previews: some View {
-        SnackView(searchText: $searchText) // <-- Güncellendi
+        SnackView(searchText: $searchText) 
             .environmentObject(BucketViewModel())
     }
 }
