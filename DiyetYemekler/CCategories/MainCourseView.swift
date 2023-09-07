@@ -85,7 +85,7 @@ struct MainCourseView: View {
     var body: some View {
         ScrollView {
             VStack {
-                ForEach(filteredRecipes, id: \.id) { recipe in  // <-- filteredRecipes
+                ForEach(filteredRecipes, id: \.id) { recipe in  
                     VStack {
                         Button(action: {
                             selectedRecipe = recipe
@@ -139,7 +139,7 @@ struct MainCourseView: View {
 
 struct MainCourseView_Previews: PreviewProvider {
     static var previews: some View {
-        MainCourseView(searchText: .constant("")) // Test için boş bir binding değeri kullanıyoruz
+        MainCourseView(searchText: .constant("")) 
             .environmentObject(BucketViewModel())
     }
 }
