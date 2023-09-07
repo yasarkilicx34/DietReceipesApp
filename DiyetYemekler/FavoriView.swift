@@ -9,13 +9,13 @@ import SwiftUI
 
 struct FavoriView: View {
     @EnvironmentObject var favoriteViewModel: FavoriteViewModel
-    @State private var selectedRecipe: Recipe? // seçilen yemek için state değişkeni
+    @State private var selectedRecipe: Recipe? 
     
     var body: some View {
         NavigationView {
             if favoriteViewModel.favoriteRecipes.isEmpty {
                 VStack {
-                    Image("favorite")  // Assetlerden favori ikonu
+                    Image("favorite") 
                         .resizable()
                         .scaledToFit()
                         .frame(width: 250, height: 250)
@@ -40,7 +40,7 @@ struct FavoriView: View {
                                 Text(recipe.name)
                                     .font(.headline)
                                     .padding()
-                                    .foregroundColor(Color.black)  // Siyah renk
+                                    .foregroundColor(Color.black)  
                                 
                                 HStack {
                                     Text("Hazırlanma: \(recipe.preparationTime)")
