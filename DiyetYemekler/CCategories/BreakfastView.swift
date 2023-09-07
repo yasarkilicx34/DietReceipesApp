@@ -141,7 +141,7 @@ struct BreakfastView: View {
 
 struct BreakfastView_Previews: PreviewProvider {
     static var previews: some View {
-        BreakfastView(searchText: .constant("")) // Test için boş bir binding değeri kullanıyoruz
+        BreakfastView(searchText: .constant("")) 
             .environmentObject(BucketViewModel())
     }
 }
