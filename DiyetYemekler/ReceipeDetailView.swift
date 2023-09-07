@@ -48,7 +48,7 @@ struct RecipeDetailView: View {
                         .scaledToFit()
                         .frame(height: 250)
                     
-                    // Sağ üst köşede "Aşağı Ok" simgesi
+                   
                     HStack {
                         Spacer()
                         VStack {
@@ -64,7 +64,6 @@ struct RecipeDetailView: View {
                         }
                     }
                     
-                    // Sol üst köşede "Kalp" simgesi
                     HStack {
                         VStack {
                             Button(action: {
@@ -172,10 +171,10 @@ struct RecipeDetailView: View {
                                 HStack {
                                     Text("\(index + 1).")
                                         .fontWeight(.bold)
-                                        .foregroundColor(.black)  // Bu satırı ekledik
+                                        .foregroundColor(.black)  
                                     
                                     Text(recipe.steps[index])
-                                        .foregroundColor(.black)  // Bu satırı ekledik
+                                        .foregroundColor(.black)  
                                     Spacer()
                                 }
                             }
