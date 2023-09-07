@@ -79,7 +79,7 @@ struct BucketView: View {
                         }
                     }
 
-                    // Profesyonel Tasarımıyla Yeni Buton
+                
                     if bucketViewModel.bucket.contains(where: { $0.isToggled }) {
                         Button("Seçili Öğeleri Sil") {
                             withAnimation {
