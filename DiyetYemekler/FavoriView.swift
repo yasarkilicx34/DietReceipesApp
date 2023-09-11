@@ -47,13 +47,13 @@ struct FavoriView: View {
                                         .foregroundColor(Color.black)  // Siyah renk
                                     Divider()
                                     Text("Pişme: \(recipe.cookingTime)")
-                                        .foregroundColor(Color.black)  // Siyah renk
+                                        .foregroundColor(Color.black)  
                                     Divider()
                                     Text("Kalori: \(recipe.calories)")
-                                        .foregroundColor(Color.black)  // Siyah renk
+                                        .foregroundColor(Color.black)  
                                     Divider()
                                     Text("Kişi: \(recipe.serves)")
-                                        .foregroundColor(Color.black)  // Siyah renk
+                                        .foregroundColor(Color.black)  
                                 }
                                 .font(.subheadline)
                             }
@@ -73,7 +73,7 @@ struct FavoriView: View {
 struct FavoriView_Previews: PreviewProvider {
     static var previews: some View {
         FavoriView()
-            .environmentObject(FavoriteViewModel()) // Bu kısmı ön izleme için ekliyorum
+            .environmentObject(FavoriteViewModel()) 
     }
 }
 
