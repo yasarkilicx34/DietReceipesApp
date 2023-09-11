@@ -28,7 +28,7 @@ struct HomeView: View {
                     .fontWeight(.bold)
                     .padding([.top, .leading], 10)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                // SearchBar'ı bu bölgeye taşıdım, böylece her zaman sabit kalır.
+        
                 SearchBar(text: $searchText)
                     .padding(.horizontal)
                 
